@@ -1,5 +1,11 @@
 
+import org.junit.Assert;
+import org,junit.test
+
 public class HelloWorld {
+    HelloWorld hw = new HelloWorld();
+    @Test
+    
     /**
      * This method must return a hello world String, instead of returning "change me".
      * A test case will check if the behavior is as expected.
@@ -7,6 +13,6 @@ public class HelloWorld {
      * @return "Hello, world!"
      */
     public String sayHello(){
-        return "change me";
+        return "Hello, World!";
     }
 }
