@@ -1,5 +1,16 @@
+import org.junit.Assert;
 
 public class Parrot {
+    /**
+     * @param p 
+     * 
+     */
+    public void parrotTestHello(Parrot p){
+        String input = "hello";
+        String expected = "hello";
+        String actual = p.copy(input);
+        Assert.assertEquals(expected, actual);
+    }    
     /**
      * This method should return whatever String was passed into it by whatever invoked it (in this case, the test),
      * instead of returning "return text please!"
