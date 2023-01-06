@@ -10,6 +10,9 @@ public class Parrot {
         String expected = "hello";
         String actual = p.copy(input);
         Assert.assertEquals(expected, actual);
+        String str = copy("hello");
+        System.out.println(str);
+        
     }    
     /**
      * This method should return whatever String was passed into it by whatever invoked it (in this case, the test),
